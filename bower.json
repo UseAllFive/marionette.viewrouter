@@ -1,0 +1,25 @@
+{
+  "name": "marionette.viewrouter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/UseAllFive/marionette.viewrouter",
+  "authors": [
+    "Zach Brown <zeebz91@gmail.com>"
+  ],
+  "description": "Insert a View into a Marionette Region when a route is matched.",
+  "main": "src/marionette.viewrouter.js",
+  "keywords": [
+    "marionette",
+    "region",
+    "backbone",
+    "router",
+    "view"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "marionette": "~2.2.2"
+ },
+ "ignore": [
+    "bower_components",
+    "node_modules"
+  ]
+}
