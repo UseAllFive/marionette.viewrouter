@@ -1,0 +1,29 @@
+{
+  "name": "marionette.viewrouter",
+  "version": "0.0.0",
+  "description": "Insert a View into a Marionette Region when a route is matched",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UseAllFive/marionette.viewrouter.git"
+  },
+  "keywords": [
+    "marionette",
+    "region",
+    "backbone",
+    "view",
+    "router"
+  ],
+  "author": "Zach Brown <zeebz91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UseAllFive/marionette.viewrouter/issues"
+  },
+  "homepage": "https://github.com/UseAllFive/marionette.viewrouter",
+  "devDependencies": {
+    "ua5-frontend-standards": "0.0.4"
+  }
+}
