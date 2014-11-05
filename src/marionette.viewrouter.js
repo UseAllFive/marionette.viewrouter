@@ -15,9 +15,11 @@
     'use strict';
 
     Marionette.ViewRouter = Backbone.Router.extend({
-        initialize: function(options) {
+        constructor: function(options) {
             var fn;
             var showMethod;
+
+            Backbone.Router.apply(this, arguments);
 
             if (options.region && options.region instanceof Marionette.Region) {
                 this._region = options.region;
